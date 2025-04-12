@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      yoshi_0: -3066867260099323197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
