@@ -725,6 +725,7 @@ GameObject:
   - component: {fileID: 358480816}
   - component: {fileID: 358480817}
   - component: {fileID: 358480818}
+  - component: {fileID: 358480819}
   m_Layer: 0
   m_Name: shy guy_0 (1)
   m_TagString: Untagged
@@ -830,10 +831,58 @@ MonoBehaviour:
   m_GameObject: {fileID: 358480813}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 770084ec982622548b409b797713adf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seleccionHabilitada: 0
+  cuadrosSeleccion: []
+  letreroComenzar: {fileID: 556118891}
+  textoPuntaje: {fileID: 1292551624}
+--- !u!61 &358480819
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358480813}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.72, y: 15.16}
+    newSize: {x: 12.72, y: 15.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 12.72, y: 15.16}
+  m_EdgeRadius: 0
 --- !u!1 &404998577
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,6 +895,7 @@ GameObject:
   - component: {fileID: 404998580}
   - component: {fileID: 404998581}
   - component: {fileID: 404998582}
+  - component: {fileID: 404998583}
   m_Layer: 0
   m_Name: shy guy_0
   m_TagString: Untagged
@@ -951,10 +1001,58 @@ MonoBehaviour:
   m_GameObject: {fileID: 404998577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 770084ec982622548b409b797713adf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seleccionHabilitada: 0
+  cuadrosSeleccion: []
+  letreroComenzar: {fileID: 556118891}
+  textoPuntaje: {fileID: 1292551624}
+--- !u!61 &404998583
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404998577}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.72, y: 15.16}
+    newSize: {x: 12.72, y: 15.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 12.72, y: 15.16}
+  m_EdgeRadius: 0
 --- !u!1 &456312867
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,7 +1064,6 @@ GameObject:
   - component: {fileID: 456312868}
   - component: {fileID: 456312871}
   - component: {fileID: 456312870}
-  - component: {fileID: 456312869}
   m_Layer: 5
   m_Name: Panel (1)
   m_TagString: Untagged
@@ -994,20 +1091,6 @@ RectTransform:
   m_AnchoredPosition: {x: -592.4, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &456312869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 456312867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a125e3f78ef25b498694c6bf6fead7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cuadrosSeleccion: []
-  indiceSeleccionado: 0
 --- !u!114 &456312870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1286,7 +1369,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 40.120613
+  field of view: 32.817142
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1314,7 +1397,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 471.5, y: 265.125, z: -700}
-  m_LocalScale: {x: 0.8483563, y: 0.8483563, z: 0.8483563}
+  m_LocalScale: {x: 0.4835631, y: 0.4835546, z: 0.8483563}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1887,6 +1970,94 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &703708480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 703708481}
+  - component: {fileID: 703708483}
+  - component: {fileID: 703708482}
+  - component: {fileID: 703708484}
+  m_Layer: 5
+  m_Name: 'puntero '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &703708481
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703708480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2130327067}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -32.456, y: 26.9757}
+  m_SizeDelta: {x: 35.088, y: 46.0488}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &703708482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703708480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 6554736390298987251, guid: 67359d3ae1cefde458ea74a7f0b902b8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &703708483
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703708480}
+  m_CullTransparentMesh: 1
+--- !u!114 &703708484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703708480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d48bfcbe9a2331147ad5fbaec9689466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &792379374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,7 +2093,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -312, y: -328}
+  m_AnchoredPosition: {x: -312, y: -348}
   m_SizeDelta: {x: 488.8932, y: 47.969574}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &792379376
@@ -1974,7 +2145,6 @@ GameObject:
   - component: {fileID: 811095704}
   - component: {fileID: 811095707}
   - component: {fileID: 811095706}
-  - component: {fileID: 811095705}
   m_Layer: 5
   m_Name: Panel (2)
   m_TagString: Untagged
@@ -2002,20 +2172,6 @@ RectTransform:
   m_AnchoredPosition: {x: -407, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &811095705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811095703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a125e3f78ef25b498694c6bf6fead7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cuadrosSeleccion: []
-  indiceSeleccionado: 0
 --- !u!114 &811095706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3088,7 +3244,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -46.171875, w: 0}
+  m_margin: {x: 0, y: 0, z: -117.55884, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3192,6 +3348,7 @@ GameObject:
   - component: {fileID: 1323852661}
   - component: {fileID: 1323852662}
   - component: {fileID: 1323852663}
+  - component: {fileID: 1323852665}
   - component: {fileID: 1323852664}
   m_Layer: 0
   m_Name: shy guy_0 (4)
@@ -3289,7 +3446,53 @@ MonoBehaviour:
   - {fileID: 560573346}
   - {fileID: 1060229504}
   - {fileID: 1636704411}
---- !u!114 &1323852664
+--- !u!61 &1323852664
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323852660}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.72, y: 15.16}
+    newSize: {x: 12.72, y: 15.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 12.72, y: 15.16}
+  m_EdgeRadius: 0
+--- !u!114 &1323852665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3298,10 +3501,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1323852660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 770084ec982622548b409b797713adf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seleccionHabilitada: 0
+  cuadrosSeleccion: []
+  letreroComenzar: {fileID: 792379374}
+  textoPuntaje: {fileID: 1292551624}
 --- !u!1 &1354418826
 GameObject:
   m_ObjectHideFlags: 0
@@ -3398,6 +3603,7 @@ GameObject:
   - component: {fileID: 1495014134}
   - component: {fileID: 1495014136}
   - component: {fileID: 1495014137}
+  - component: {fileID: 1495014139}
   - component: {fileID: 1495014138}
   m_Layer: 0
   m_Name: shy guy_0 (2)
@@ -3495,7 +3701,53 @@ MonoBehaviour:
   - {fileID: 1067322156}
   - {fileID: 241979616}
   - {fileID: 864533677}
---- !u!114 &1495014138
+--- !u!61 &1495014138
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495014133}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.72, y: 15.16}
+    newSize: {x: 12.72, y: 15.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 12.72, y: 15.16}
+  m_EdgeRadius: 0
+--- !u!114 &1495014139
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3504,10 +3756,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1495014133}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 770084ec982622548b409b797713adf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seleccionHabilitada: 0
+  cuadrosSeleccion: []
+  letreroComenzar: {fileID: 792379374}
+  textoPuntaje: {fileID: 1292551624}
 --- !u!1 &1572642620
 GameObject:
   m_ObjectHideFlags: 0
@@ -4133,7 +4387,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1805459062}
-  - component: {fileID: 1805459063}
+  - component: {fileID: 1805459064}
   m_Layer: 5
   m_Name: GameManager
   m_TagString: Untagged
@@ -4160,7 +4414,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1805459063
+--- !u!114 &1805459064
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4169,12 +4423,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1805459061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72f44752c3e57364aa48068043e52f16, type: 3}
+  m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuadrosSeleccion:
-  - {fileID: 1964728104}
-  letreroComenzar: {fileID: 0}
+  cuadrosSeleccion: []
+  letreroComenzar: {fileID: 1111087146}
+  textoPuntaje: {fileID: 1292551624}
 --- !u!1 &1823533274
 GameObject:
   m_ObjectHideFlags: 0
@@ -4309,7 +4563,6 @@ GameObject:
   - component: {fileID: 1888729721}
   - component: {fileID: 1888729724}
   - component: {fileID: 1888729723}
-  - component: {fileID: 1888729722}
   m_Layer: 5
   m_Name: Panel (3)
   m_TagString: Untagged
@@ -4337,20 +4590,6 @@ RectTransform:
   m_AnchoredPosition: {x: -219, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1888729722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888729720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a125e3f78ef25b498694c6bf6fead7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cuadrosSeleccion: []
-  indiceSeleccionado: 0
 --- !u!114 &1888729723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4653,7 +4892,6 @@ GameObject:
   - component: {fileID: 1964728108}
   - component: {fileID: 1964728107}
   - component: {fileID: 1964728106}
-  - component: {fileID: 1964728105}
   m_Layer: 5
   m_Name: CuadrosJugadores
   m_TagString: Untagged
@@ -4661,20 +4899,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1964728105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964728104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a125e3f78ef25b498694c6bf6fead7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cuadrosSeleccion: []
-  indiceSeleccionado: 0
 --- !u!114 &1964728106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4922,6 +5146,7 @@ GameObject:
   - component: {fileID: 2085299144}
   - component: {fileID: 2085299145}
   - component: {fileID: 2085299146}
+  - component: {fileID: 2085299148}
   - component: {fileID: 2085299147}
   m_Layer: 0
   m_Name: shy guy_0 (3)
@@ -5019,7 +5244,53 @@ MonoBehaviour:
   - {fileID: 1139761694}
   - {fileID: 2056472335}
   - {fileID: 6842965}
---- !u!114 &2085299147
+--- !u!61 &2085299147
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085299143}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.72, y: 15.16}
+    newSize: {x: 12.72, y: 15.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 12.72, y: 15.16}
+  m_EdgeRadius: 0
+--- !u!114 &2085299148
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5028,10 +5299,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2085299143}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 770084ec982622548b409b797713adf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seleccionHabilitada: 0
+  cuadrosSeleccion: []
+  letreroComenzar: {fileID: 792379374}
+  textoPuntaje: {fileID: 1292551624}
 --- !u!1 &2114237025
 GameObject:
   m_ObjectHideFlags: 0
@@ -5195,6 +5468,7 @@ RectTransform:
   - {fileID: 1964728108}
   - {fileID: 1481459196}
   - {fileID: 1805459062}
+  - {fileID: 703708481}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
