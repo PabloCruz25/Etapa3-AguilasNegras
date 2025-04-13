@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: ecaa8b2e876b8a94f834be45ef759522
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1281881862391891207
+    second: heyho_body_ao_0
+  - first:
+      213: 1469395643602684342
+    second: heyho_body_ao_1
+  - first:
+      213: -4860557554317995989
+    second: heyho_body_ao_2
+  - first:
+      213: 3957015383239403387
+    second: heyho_body_ao_3
+  - first:
+      213: 8211081963761233862
+    second: heyho_body_ao_4
+  - first:
+      213: 1878470742596993531
+    second: heyho_body_ao_5
+  - first:
+      213: 1879775727251666906
+    second: heyho_body_ao_6
+  - first:
+      213: -556551213101459145
+    second: heyho_body_ao_7
+  - first:
+      213: 4938489810955723854
+    second: heyho_body_ao_8
+  - first:
+      213: -4369808939315749780
+    second: heyho_body_ao_9
+  - first:
+      213: 7934387226783519888
+    second: heyho_body_ao_10
+  - first:
+      213: -6183548358718920385
+    second: heyho_body_ao_11
+  - first:
+      213: 8852465790734583338
+    second: heyho_body_ao_12
+  - first:
+      213: 558191661802457839
+    second: heyho_body_ao_13
+  - first:
+      213: -8015607871316808495
+    second: heyho_body_ao_14
+  - first:
+      213: 6445583656331151816
+    second: heyho_body_ao_15
+  - first:
+      213: -4327074065288948561
+    second: heyho_body_ao_16
+  - first:
+      213: -3638176922459096607
+    second: heyho_body_ao_17
+  - first:
+      213: -8547012579371164125
+    second: heyho_body_ao_18
+  - first:
+      213: -5537725399132489421
+    second: heyho_body_ao_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heyho_body_ao_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1101
+        width: 476
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70582eb13c82ac110800000000000000
+      internalID: 1281881862391891207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_1
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1889
+        width: 59
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9c17b7d87546410800000000000000
+      internalID: 1469395643602684342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_2
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1585
+        width: 59
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20d88c18a4db8cb0800000000000000
+      internalID: -4860557554317995989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_3
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1553
+        width: 181
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77adb0a6842ae630800000000000000
+      internalID: 3957015383239403387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_4
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1860
+        width: 178
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfea97ba8f93f170800000000000000
+      internalID: 8211081963761233862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1836
+        width: 391
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf14575103ba11a10800000000000000
+      internalID: 1878470742596993531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_6
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1897
+        width: 202
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7bc30801e461a10800000000000000
+      internalID: 1879775727251666906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_7
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 646
+        width: 317
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73956c3de9bb648f0800000000000000
+      internalID: -556551213101459145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_8
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 647
+        width: 131
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44e6ec515a098440800000000000000
+      internalID: 4938489810955723854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_9
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1274
+        width: 1053
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c12c30ce15b53c0800000000000000
+      internalID: -4369808939315749780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 7
+        width: 77
+        height: 1057
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09414d2052b9c1e60800000000000000
+      internalID: 7934387226783519888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_11
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 865
+        width: 150
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39eb13978f9f2aa0800000000000000
+      internalID: -6183548358718920385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 883
+        width: 1059
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26480bfbb64ada70800000000000000
+      internalID: 8852465790734583338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_13
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 7
+        width: 203
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea0256eb581fb700800000000000000
+      internalID: 558191661802457839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_14
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 7
+        width: 71
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc265b0c17d2c090800000000000000
+      internalID: -8015607871316808495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_15
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 302
+        width: 452
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c98ead6f20537950800000000000000
+      internalID: 6445583656331151816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_16
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 503
+        width: 1059
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa495ad301523f3c0800000000000000
+      internalID: -4327074065288948561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_17
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 28
+        width: 370
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e93dca6d59928dc0800000000000000
+      internalID: -3638176922459096607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_18
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 12
+        width: 541
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e59c3d759e26980800000000000000
+      internalID: -8547012579371164125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heyho_body_ao_19
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 13
+        width: 550
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339bc01f61c0623b0800000000000000
+      internalID: -5537725399132489421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      heyho_body_ao_0: 1281881862391891207
+      heyho_body_ao_1: 1469395643602684342
+      heyho_body_ao_10: 7934387226783519888
+      heyho_body_ao_11: -6183548358718920385
+      heyho_body_ao_12: 8852465790734583338
+      heyho_body_ao_13: 558191661802457839
+      heyho_body_ao_14: -8015607871316808495
+      heyho_body_ao_15: 6445583656331151816
+      heyho_body_ao_16: -4327074065288948561
+      heyho_body_ao_17: -3638176922459096607
+      heyho_body_ao_18: -8547012579371164125
+      heyho_body_ao_19: -5537725399132489421
+      heyho_body_ao_2: -4860557554317995989
+      heyho_body_ao_3: 3957015383239403387
+      heyho_body_ao_4: 8211081963761233862
+      heyho_body_ao_5: 1878470742596993531
+      heyho_body_ao_6: 1879775727251666906
+      heyho_body_ao_7: -556551213101459145
+      heyho_body_ao_8: 4938489810955723854
+      heyho_body_ao_9: -4369808939315749780
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
