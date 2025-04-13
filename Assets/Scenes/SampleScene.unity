@@ -965,12 +965,15 @@ GameObject:
   - component: {fileID: 358480816}
   - component: {fileID: 358480817}
   - component: {fileID: 358480818}
-<<<<<<< HEAD
+
   - component: {fileID: 358480820}
   - component: {fileID: 358480819}
   - component: {fileID: 358480821}
   - component: {fileID: 358480822}
   - component: {fileID: 358480823}
+
+  - component: {fileID: 358480819}
+
   m_Layer: 0
   m_Name: shy guy_0 (1)
   m_TagString: Untagged
@@ -1079,7 +1082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
+
 --- !u!50 &358480819
 Rigidbody2D:
   serializedVersion: 5
@@ -1121,13 +1124,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!70 &358480821
 CapsuleCollider2D:
-=======
+
   cuadrosSeleccion: []
   letreroComenzar: {fileID: 556118891}
   textoPuntaje: {fileID: 1292551624}
 --- !u!61 &358480819
 BoxCollider2D:
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1156,7 +1159,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-<<<<<<< HEAD
+
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
@@ -1196,7 +1199,7 @@ MonoBehaviour:
   maxJumpForce: 6
   minInterval: 1
   maxInterval: 3
-=======
+
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
@@ -1213,7 +1216,7 @@ MonoBehaviour:
   m_AutoTiling: 0
   m_Size: {x: 12.72, y: 15.16}
   m_EdgeRadius: 0
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
 --- !u!1 &404998577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,14 +1229,14 @@ GameObject:
   - component: {fileID: 404998580}
   - component: {fileID: 404998581}
   - component: {fileID: 404998582}
-<<<<<<< HEAD
+
   - component: {fileID: 404998585}
   - component: {fileID: 404998584}
   - component: {fileID: 404998583}
   - component: {fileID: 404998586}
-=======
+
   - component: {fileID: 404998583}
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
   m_Layer: 0
   m_Name: shy guy_0
   m_TagString: Untagged
@@ -1342,7 +1345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
+
 --- !u!114 &404998583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1539,22 +1542,22 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!61 &410995622
-=======
+
   cuadrosSeleccion: []
   letreroComenzar: {fileID: 556118891}
   textoPuntaje: {fileID: 1292551624}
 --- !u!61 &404998583
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
+
   m_GameObject: {fileID: 410995621}
-=======
+
   m_GameObject: {fileID: 404998577}
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -1578,11 +1581,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-<<<<<<< HEAD
+
   m_IsTrigger: 0
-=======
+
   m_IsTrigger: 1
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1590,18 +1593,18 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
+
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
-=======
+
     oldSize: {x: 12.72, y: 15.16}
     newSize: {x: 12.72, y: 15.16}
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-<<<<<<< HEAD
+
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &410995623
@@ -1674,10 +1677,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
+
   m_Size: {x: 12.72, y: 15.16}
   m_EdgeRadius: 0
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
 --- !u!1 &456312867
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,7 +1719,7 @@ RectTransform:
   m_AnchoredPosition: {x: -592.4, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
+
 --- !u!114 &456312869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1729,8 +1732,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a125e3f78ef25b498694c6bf6fead7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-=======
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
+
 --- !u!114 &456312870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2825,7 +2828,7 @@ RectTransform:
   m_AnchoredPosition: {x: -407, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
+
 --- !u!114 &811095705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2838,8 +2841,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a125e3f78ef25b498694c6bf6fead7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-=======
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
+
 --- !u!114 &811095706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4457,7 +4460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
+
 --- !u!114 &1323852665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4635,11 +4638,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-=======
+
   cuadrosSeleccion: []
   letreroComenzar: {fileID: 792379374}
   textoPuntaje: {fileID: 1292551624}
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
 --- !u!1 &1354418826
 GameObject:
   m_ObjectHideFlags: 0
@@ -4896,7 +4899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
+
 --- !u!70 &1495014139
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4977,11 +4980,11 @@ MonoBehaviour:
   maxJumpForce: 6
   minInterval: 1
   maxInterval: 3
-=======
+
   cuadrosSeleccion: []
   letreroComenzar: {fileID: 792379374}
   textoPuntaje: {fileID: 1292551624}
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
 --- !u!1 &1572642620
 GameObject:
   m_ObjectHideFlags: 0
@@ -5780,12 +5783,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
+
+
   cuadrosSeleccion: []
   letreroComenzar: {fileID: 1111087146}
   textoPuntaje: {fileID: 1292551624}
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
 --- !u!1 &1823533274
 GameObject:
   m_ObjectHideFlags: 0
@@ -5947,7 +5950,7 @@ RectTransform:
   m_AnchoredPosition: {x: -219, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
+
 --- !u!114 &1888729722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5960,8 +5963,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a125e3f78ef25b498694c6bf6fead7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-=======
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
+
 --- !u!114 &1888729723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6271,7 +6274,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
+
 --- !u!114 &1964728105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6284,8 +6287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a125e3f78ef25b498694c6bf6fead7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-=======
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
 --- !u!114 &1964728106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6841,7 +6843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5026d2e95e403bc4facc5eee178bae0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
+
 --- !u!70 &2085299148
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7019,11 +7021,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-=======
+
   cuadrosSeleccion: []
   letreroComenzar: {fileID: 792379374}
   textoPuntaje: {fileID: 1292551624}
->>>>>>> 8ea5e23b54328d0bd0bb59f5e7b4893ab8fd8ceb
+
 --- !u!1 &2114237025
 GameObject:
   m_ObjectHideFlags: 0
