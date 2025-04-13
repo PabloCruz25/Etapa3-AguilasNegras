@@ -3722,56 +3722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebeefb77f45b35c4ca0e9ef230209297, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1700664245
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1700664247}
-  - component: {fileID: 1700664246}
-  m_Layer: 0
-  m_Name: RoundManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1700664246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700664245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3766fc8c8db645749b235c3be21b038b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rondasUI:
-  - {fileID: 692571900}
-  - {fileID: 1852294296}
-  - {fileID: 720827861}
-  gameManager: {fileID: 1764142815}
-  shyGuyMixer: {fileID: 1764142814}
---- !u!4 &1700664247
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700664245}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 362.97733, y: 290.81006, z: 0.861085}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1715049146
 GameObject:
   m_ObjectHideFlags: 0
@@ -4118,7 +4068,6 @@ MonoBehaviour:
   - {fileID: 2029713048}
   jugadorActual: 0
   puedeSeleccionar: 1
-  roundManager: {fileID: 0}
 --- !u!1 &1800938745
 GameObject:
   m_ObjectHideFlags: 0
@@ -4726,5 +4675,4 @@ SceneRoots:
   - {fileID: 1852294299}
   - {fileID: 720827864}
   - {fileID: 1252259792}
-  - {fileID: 1700664247}
   - {fileID: 180312265}

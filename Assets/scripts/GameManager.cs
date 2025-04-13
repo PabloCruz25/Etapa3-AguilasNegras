@@ -1,4 +1,4 @@
-/*using UnityEngine;
+using UnityEngine;
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -35,9 +35,9 @@ public class GameManager : MonoBehaviour
         puedeSeleccionar = true;
     }
 
-}*/
+}
 
-using UnityEngine;
+/*using UnityEngine;
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -88,5 +88,5 @@ public class GameManager : MonoBehaviour
     {
         puedeSeleccionar = true;
     }
-}
+}*/
 

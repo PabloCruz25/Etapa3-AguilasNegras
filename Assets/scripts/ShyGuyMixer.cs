@@ -1,4 +1,4 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -62,7 +62,8 @@ public class ShyGuyMixer : MonoBehaviour
 
         Debug.Log("¡Shy Guys mezclados visiblemente!");
     }
-}*/
+}
+/*
 using System.Collections;
 using UnityEngine;
 
@@ -126,5 +127,5 @@ public class ShyGuyMixer : MonoBehaviour
 
         Debug.Log("¡Shy Guys mezclados visiblemente!");
     }
-}
+}*/
 

@@ -1,4 +1,4 @@
-/*using System.Collections;
+using System.Collections;
 using UnityEngine;
 
 public class RoundManager : MonoBehaviour
@@ -50,9 +50,9 @@ public class RoundManager : MonoBehaviour
         rondaActual++;
     }
 
-}*/
+}
 
-
+/*
 using System.Collections;
 using UnityEngine;
 
@@ -103,4 +103,4 @@ public class RoundManager : MonoBehaviour
         // Aumentar el contador de rondas
         rondaActual++;
     }
-}
+}*/

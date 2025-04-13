@@ -1,4 +1,4 @@
-/*using UnityEngine;
+using UnityEngine;
 
 public class ShyGuyController : MonoBehaviour
 {
@@ -29,7 +29,7 @@ public class ShyGuyController : MonoBehaviour
         return contador;
     }
 }
-*/
+/*
 using UnityEngine;
 
 public class ShyGuyController : MonoBehaviour
@@ -69,4 +69,4 @@ public class ShyGuyController : MonoBehaviour
 
         return contador;
     }
-}
+}*/
